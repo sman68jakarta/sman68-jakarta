@@ -71,7 +71,7 @@ documentList.forEach(doc => {
 document.getElementById('downloadSurat').addEventListener('click', (e) => {
     e.preventDefault();
     // Ganti dengan link file surat pernyataan
-    const suratUrl = 'https://drive.google.com/file/d/SURAT_ID/view'; // GANTI INI
+    const suratUrl = 'Surat_Pernyataan_Pindah_SMAN68.pdf'; // GANTI INI
     window.open(suratUrl, '_blank');
     showToast('info', 'Download surat pernyataan, cetak, isi, tanda tangani, lalu upload ke Google Drive dan tempel linknya.');
 });
